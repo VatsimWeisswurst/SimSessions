@@ -1,0 +1,62 @@
+Beschreibung Sim-Files                                     Stand 27.12.18
+--------------------------------------------------------------------------------
+EDDM_APN_V32_RWY08.txt              EDDM Apron / Ground
+  EDDM_P_TWR      EDDM_P_APP
+  35 Outbounds
+--------------------------------------------------------------------------------
+EDDM_APN_V32_RWY26.txt              EDDM Apron / Ground
+  EDDM_P_TWR      EDDM_P_APP
+  35 Outbounds
+--------------------------------------------------------------------------------
+EDDM_APN_V32_RWY08_Delay.txt        EDDM Apron / Ground
+  EDDM_P_TWR      EDDM_P_APP
+  35 Outbounds    nicht alle auf einmal - kommen mit Zeitverzögerung
+--------------------------------------------------------------------------------
+EDDM_APN_V32_RWY26_Delay.txt        EDDM Apron / Ground
+  EDDM_P_TWR      EDDM_P_APP
+  35 Outbounds    nicht alle auf einmal - kommen mit Zeitverzögerung
+--------------------------------------------------------------------------------
+EDDM_TWR_V32_RWY26.txt              EDDM Tower
+  EDDM_P_TWR
+  31 Outbounds    64 Inbounds     
+  Outbounds Start mit 5 Fliegern dann pro Minute +1
+  Inbounds unterschiedlich auf 26L und 26R mit ILS-Freigabe
+  *** WICHTIG *** Inbounds auf dem ILS --> VACATE LEFT / RIGHT zuordnen 
+                  bleiben sonst auf der Bahn stehen
+  *** WICHTIG *** Outbounds zum Rollen NICHT mit DIRECT sondern NEW steuern
+                  rollen mit DIRECT auf die Bahn, nicht zu Holding Point
+--------------------------------------------------------------------------------
+EDDM_APP_V32_RWY26_Hold.txt   EDDM Approach - Holding einfliegen/auflösen
+  EDDM_P_APP
+  9 Inbounds für Holding  // BER5LL Medical Emergency // RWY26R only
+  Nord:CFG017 FL110 / BER765 FL130 / DLH6RB FL140 / DAL5565 FL120 / DLA748 FL150
+  Süd: DLH3FG FL110 / AUA83VY FL120 / DLH77P FL130 / THY5DI FL140 (Delay 2 Min)
+  Emergency: BER5LL FL100
+--------------------------------------------------------------------------------
+EDDM_APP_V32_RWY26.txt       EDDM Approach 
+  EDDM_P_APP
+  38 Inbounds 20 Outbounds
+  Anfangs Inbounds wie für Holding-SIM, jedoch BER5ll FL160
+  Lösung über Transition oder Vectoren oder Holding 
+  Outbounds nach Bedarf
+--------------------------------------------------------------------------------
+EDDM_APP_V32_RWY08.txt       EDDM Approach        
+  EDDM_P_APP
+  38 Inbounds 20 Outbounds
+  Outbounds nach Bedarf  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+IN ARBEIT - NICH
+
+EDDM_TWR_58out_129in.txt      EDDM Tower
+  EDDM_P_TWR  
+  58 Outbounds an Stands  129 Inbounds auf Transition
+  
+EDDM_TWR_mehrere.txt          EDDM Tower     TEST TEST TEST TEST
+  EDDM_P_TWR    EDDN_P_TWR
+  5 Outbounds an Stands
+  
+     
